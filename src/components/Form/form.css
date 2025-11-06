@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  gap: 10px;
+
+  padding: 10px;
+}
+
+.form__input {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+
+  font-size: inherit;
+}
+
+.form__input:focus {
+  outline: 2px solid green;
+}
+
+.form__button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+
+  font-size: inherit;
+
+  cursor: pointer;
+}
+
+.form__button_submit {
+  background-color: rgb(194, 154, 48);
+}
+
+.form__button_submit:focus {
+  outline: 2px solid rgb(74, 206, 74);
+}
+
+.form__button_cancel {
+    background-color: rgb(194, 154, 48);
+}
+
+.form__button_cancel:focus {
+  outline: 2px solid rgb(206, 74, 74);
+}
+

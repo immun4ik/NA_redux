@@ -1,0 +1,35 @@
+.search {
+  display: flex;
+  gap: 10px;
+
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.search__input {
+  width: 50%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+
+  font-size: inherit;
+}
+
+.search__input:focus {
+  outline: 2px solid green;
+}
+
+.search__button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+
+  font-size: inherit;
+
+  cursor: pointer;
+  background-color: rgb(27, 212, 212);
+}
+
+.search__button:focus {
+  outline: 2px solid rgb(206, 74, 74);
+}
